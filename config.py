@@ -1,16 +1,16 @@
 # ========== تنظیمات اولیه ==========
 
 # لیست ادمین‌ها
-ADMINS = [6996368871, 8073889455, 8358598502, 6105989041, 6423394489]
+ADMINS = [0123456789, 0123456789]
 
 # کلید API گوگل جمینی
-GEMINI_API_KEY = "AIzaSyD1sL115AgXoAFfL4NjgjNy8jVu3f-nW8U"
+GEMINI_API_KEY = ""
 
 # آیدی مدیر اصلی برای دریافت نوتیفیکیشن
-MAIN_ADMIN_ID = 6996368871
+MAIN_ADMIN_ID = 0123456789 
 
 # لینک گروه
-GROUP_LINK = "https://t.me/+9_ZpTdXrhxJiY2E0"
+GROUP_LINK = "https://t.me/example"
 
 # فایل‌های JSON برای ذخیره داده‌ها
 POINTS_FILE = "user_points.json"
@@ -20,7 +20,7 @@ BETS_FILE = "active_bets.json"
 # ========== تنظیمات سیستم شرط‌بندی ==========
 BET_CONFIG = {
     "min_bet": 10,              # حداقل مقدار شرط
-    "max_bet": 1000,            # حداکثر مقدار شرط
+    "max_bet": 10000,            # حداکثر مقدار شرط
     "bet_timeout": 60,          # زمان انقضای شرط (ثانیه)
     "multipliers": {
         "even_odd": 2,          # ضریب زوج/فرد
@@ -34,9 +34,9 @@ BET_CONFIG = {
 BOX_CONFIG = {
     "message_threshold": 50,    # تعداد پیام برای ظاهر شدن جعبه
     "min_reward": 5,           # حداقل جایزه
-    "max_reward": 15,          # حداکثر جایزه
+    "max_reward": 50,          # حداکثر جایزه
     "operations": ["+", "-", "*", "/"],  # عملیات‌های ریاضی
-    "number_range": (1, 20),   # محدوده اعداد برای سوالات
+    "number_range": (1, 50),   # محدوده اعداد برای سوالات
     "sticker_id": "CAACAgQAAyEFAASyTOk5AAMFaN_-Do141GgmCVjw5OIQJgKL1koAAo8YAAJc5gFT_ajtuyWZet8eBA"
 }
 
